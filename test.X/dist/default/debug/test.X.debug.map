@@ -1,0 +1,213 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Nov 22 20:45:13 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                MAIN_PROG       code   0x000006    program   0x000286
+              inputstring       code   0x00028c    program   0x000008
+               morse_code       code   0x000300    program   0x0000d0
+                    dbgP0       code   0x007dc0    program   0x000240
+.config_300001_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/DEBUG/NEWASMTEMPLA    romdata   0x30000d    program   0x000001
+                    dbgD0      udata   0x0005f4       data   0x00000c
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000293      
+                            0x000300    0x0003cf      
+                            0x007dc0    0x007fff      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            1455 out of 33048 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      A_L   0x000300    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      B_L   0x000308    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      C_L   0x000310    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      D_L   0x000318    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      E_L   0x000320    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      F_L   0x000328    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                   Finala   0x000282    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      G_L   0x000330    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      H_L   0x000338    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      I_L   0x000340    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      J_L   0x000348    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      K_L   0x000350    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      L_L   0x000358    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      M_L   0x000360    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      N_L   0x000368    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      O_L   0x000370    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      P_L   0x000378    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Q_L   0x000380    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      R_L   0x000388    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                    START   0x000006    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      S_L   0x000390    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      T_L   0x000398    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      U_L   0x0003a0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      V_L   0x0003a8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      W_L   0x0003b0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      X_L   0x0003b8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Y_L   0x0003c0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Z_L   0x0003c8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _10LOOP1   0x000088    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _10LOOP2   0x000084    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _12LOOP3   0x0000a6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _13LOOP1   0x0000ae    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _13LOOP2   0x0000aa    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _14LOOP3   0x0000ca    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _15LOOP1   0x0000d2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _15LOOP2   0x0000ce    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _17LOOP3   0x0000f0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _18LOOP1   0x0000f8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _18LOOP2   0x0000f4    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _19LOOP3   0x000114    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _20LOOP1   0x00011c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _20LOOP2   0x000118    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _22LOOP3   0x00013a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _23LOOP1   0x000142    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _23LOOP2   0x00013e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _24LOOP3   0x00015e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _25LOOP1   0x000166    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _25LOOP2   0x000162    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _27LOOP3   0x000184    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _28LOOP1   0x00018c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _28LOOP2   0x000188    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _29LOOP3   0x0001a8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _2LOOP3   0x000012    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _30LOOP1   0x0001b0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _30LOOP2   0x0001ac    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _32LOOP3   0x0001ce    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _33LOOP1   0x0001d6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _33LOOP2   0x0001d2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _34LOOP3   0x0001f2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _35LOOP1   0x0001fa    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _35LOOP2   0x0001f6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _37LOOP3   0x000218    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _38LOOP1   0x000220    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _38LOOP2   0x00021c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _39LOOP3   0x00023c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _3LOOP1   0x00001a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _3LOOP2   0x000016    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _40LOOP1   0x000244    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _40LOOP2   0x000240    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _42LOOP3   0x000262    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _43LOOP1   0x00026a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _43LOOP2   0x000266    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _4LOOP3   0x000036    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _5LOOP1   0x00003e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _5LOOP2   0x00003a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _7LOOP3   0x00005c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _8LOOP1   0x000064    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _8LOOP2   0x000060    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _9LOOP3   0x000080    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 led_init   0x000286    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                     ques   0x00028c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    START   0x000006    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _2LOOP3   0x000012    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _3LOOP2   0x000016    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _3LOOP1   0x00001a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _4LOOP3   0x000036    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _5LOOP2   0x00003a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _5LOOP1   0x00003e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _7LOOP3   0x00005c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _8LOOP2   0x000060    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _8LOOP1   0x000064    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                  _9LOOP3   0x000080    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _10LOOP2   0x000084    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _10LOOP1   0x000088    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _12LOOP3   0x0000a6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _13LOOP2   0x0000aa    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _13LOOP1   0x0000ae    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _14LOOP3   0x0000ca    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _15LOOP2   0x0000ce    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _15LOOP1   0x0000d2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _17LOOP3   0x0000f0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _18LOOP2   0x0000f4    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _18LOOP1   0x0000f8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _19LOOP3   0x000114    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _20LOOP2   0x000118    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _20LOOP1   0x00011c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _22LOOP3   0x00013a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _23LOOP2   0x00013e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _23LOOP1   0x000142    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _24LOOP3   0x00015e    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _25LOOP2   0x000162    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _25LOOP1   0x000166    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _27LOOP3   0x000184    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _28LOOP2   0x000188    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _28LOOP1   0x00018c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _29LOOP3   0x0001a8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _30LOOP2   0x0001ac    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _30LOOP1   0x0001b0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _32LOOP3   0x0001ce    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _33LOOP2   0x0001d2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _33LOOP1   0x0001d6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _34LOOP3   0x0001f2    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _35LOOP2   0x0001f6    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _35LOOP1   0x0001fa    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _37LOOP3   0x000218    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _38LOOP2   0x00021c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _38LOOP1   0x000220    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _39LOOP3   0x00023c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _40LOOP2   0x000240    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _40LOOP1   0x000244    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _42LOOP3   0x000262    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _43LOOP2   0x000266    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 _43LOOP1   0x00026a    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                   Finala   0x000282    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                 led_init   0x000286    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                     ques   0x00028c    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      A_L   0x000300    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      B_L   0x000308    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      C_L   0x000310    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      D_L   0x000318    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      E_L   0x000320    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      F_L   0x000328    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      G_L   0x000330    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      H_L   0x000338    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      I_L   0x000340    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      J_L   0x000348    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      K_L   0x000350    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      L_L   0x000358    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      M_L   0x000360    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      N_L   0x000368    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      O_L   0x000370    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      P_L   0x000378    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Q_L   0x000380    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      R_L   0x000388    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      S_L   0x000390    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      T_L   0x000398    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      U_L   0x0003a0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      V_L   0x0003a8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      W_L   0x0003b0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      X_L   0x0003b8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Y_L   0x0003c0    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+                      Z_L   0x0003c8    program     static C:\Users\Lenovo\MPLABXProjects\test.X\newAsmTemplate.asm
+
+
